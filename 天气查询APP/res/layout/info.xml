@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp" >
+    
+
+    <Button 
+        android:id="@+id/account"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="账户详情"
+        />
+    
+    <Button 
+        android:id="@+id/bind"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定银行卡服务"
+        android:layout_below="@id/account"
+        />
+    
+    <Button 
+        android:id="@+id/card"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="一卡通服务"
+        android:layout_below="@id/bind"
+        />
+    
+    <Button 
+        android:id="@+id/weather"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="增值服务"
+        android:layout_below="@id/card"
+        />
+</RelativeLayout>
